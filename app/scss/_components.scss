@@ -1,0 +1,104 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(8, auto);
+  grid-column-gap: var(--gutter);
+  grid-row-gap: var(--gutter);
+  padding: var(--gutter);
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: -1%;
+  left: -1%;
+  width: 102%;
+  height: 102%;
+  background-color: var(--bg-color);
+}
+
+.text-container {
+  overflow: hidden;
+}
+
+.btn {
+  height: 60px;
+  text-wrap: nowrap;
+  padding: 0 70px;
+  background-color: var(--emphasize-color);
+  color: var(--text-color);
+  font-size: var(--fs-h4);
+  border-radius: 999999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  &.--white {
+    background-color: var(--white-color);
+    color: var(--text-color-2);
+    font-family: var(--ff-mm);
+  }
+  &__icon {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+  }
+  &.btn-link {
+    background-color: transparent;
+    height: fit-content;
+    padding: 0;
+    font-size: var(--fs-h6);
+    .btn__text {
+      transition-duration: 0.3s;
+    }
+    &:hover {
+      .btn__text {
+        border-bottom: 1px solid var(--border-color);
+      }
+    }
+  }
+  &.btn-icon {
+    background-color: transparent;
+    padding: 0 20px;
+  }
+}
+
+.titlegroup {
+  position: relative;
+  width: fit-content;
+  text-wrap: nowrap;
+  text-transform: uppercase;
+  &__main {
+    width: fit-content;
+    font-size: var(--fs-h2);
+    font-family: var(--ff-mb);
+    color: var(--emphasize-color);
+    span {
+      font-style: italic;
+    }
+  }
+  &__backdrop {
+    font-size: var(--fs-h1);
+    font-family: var(--ff-mb);
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(0, -80%);
+    width: fit-content;
+    height: 100%;
+    z-index: -1;
+    color: var(--backdrop-color);
+    span {
+      font-style: italic;
+    }
+  }
+}
+
+.line {
+  width: 1px;
+  background-color: var(--border-color);
+  height: 100%;
+  display: block;
+}
