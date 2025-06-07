@@ -64,7 +64,7 @@ const About = (props: Props) => {
                 </li>
                 <li className="item">
                   <Image
-                    src={"/images/furni-2.jpeg"}
+                    src={"/images/furni-1.webp"}
                     alt="about"
                     height={500}
                     width={500}
@@ -80,7 +80,7 @@ const About = (props: Props) => {
                 </li>
                 <li className="item">
                   <Image
-                    src={"/images/furni-2.jpeg"}
+                    src={"/images/furni-1.webp"}
                     alt="about"
                     height={500}
                     width={500}
@@ -96,7 +96,7 @@ const About = (props: Props) => {
                 </li>
                 <li className="item">
                   <Image
-                    src={"/images/furni-2.jpeg"}
+                    src={"/images/furni-1.webp"}
                     alt="about"
                     height={500}
                     width={500}

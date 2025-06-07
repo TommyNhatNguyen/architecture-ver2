@@ -24,7 +24,7 @@ const Projects = (props: Props) => {
             </div>
             <div className="thumbnail">
               <Image
-                src={"/images/project-1.jpeg"}
+                src={"/images/project-1.jpg"}
                 alt="projects"
                 height={500}
                 width={500}
@@ -48,7 +48,7 @@ const Projects = (props: Props) => {
             </div>
             <div className="thumbnail">
               <Image
-                src={"/images/project-2.jpeg"}
+                src={"/images/project-2.jpg"}
                 alt="projects"
                 height={500}
                 width={500}
@@ -72,7 +72,7 @@ const Projects = (props: Props) => {
             </div>
             <div className="thumbnail">
               <Image
-                src={"/images/project-3.jpeg"}
+                src={"/images/project-3.jpg"}
                 alt="projects"
                 height={500}
                 width={500}
@@ -96,7 +96,7 @@ const Projects = (props: Props) => {
             </div>
             <div className="thumbnail">
               <Image
-                src={"/images/project-4.jpeg"}
+                src={"/images/project-4.jpg"}
                 alt="projects"
                 height={500}
                 width={500}

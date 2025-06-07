@@ -43,6 +43,7 @@
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      background-attachment: fixed;
       height: calc(100% - var(--header-height));
       width: 100%;
       padding: var(--pd-container);
