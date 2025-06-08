@@ -1,5 +1,12 @@
 html {
   font-size: 62.5%;
+  scrollbar-color: var(--bg-color) transparent;
+  scrollbar-width: thin;
+  -webkit-scrollbar-track: transparent;
+  -webkit-scrollbar-thumb: transparent;
+  -webkit-scrollbar-thumb: transparent;
+  -webkit-scrollbar-track: transparent;
+  -webkit-scrollbar-thumb: transparent;
 }
 
 body {

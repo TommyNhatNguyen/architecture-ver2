@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 import Image from "next/image";
-import { Search } from "lucide-react";
+import { ArrowUpRight, Search } from "lucide-react";
 type Props = {};
 
 const Projects = (props: Props) => {
@@ -36,7 +36,7 @@ const Projects = (props: Props) => {
             <div className="showmore">
               <div className="showmore__background">
                 <div className="showmore__background-icon">
-                  <Search />
+                  <ArrowUpRight />
                 </div>
               </div>
             </div>
@@ -60,12 +60,12 @@ const Projects = (props: Props) => {
             <div className="showmore">
               <div className="showmore__background">
                 <div className="showmore__background-icon">
-                  <Search />
+                  <ArrowUpRight />
                 </div>
               </div>
             </div>
           </li>
-          <li className="scprojects__list-item --active">
+          <li className="scprojects__list-item ">
             <div className="top">
               <span className="top__num">02</span>
               <h4 className="top__name">Square projects</h4>
@@ -84,7 +84,7 @@ const Projects = (props: Props) => {
             <div className="showmore">
               <div className="showmore__background">
                 <div className="showmore__background-icon">
-                  <Search />
+                  <ArrowUpRight />
                 </div>
               </div>
             </div>
@@ -108,7 +108,7 @@ const Projects = (props: Props) => {
             <div className="showmore">
               <div className="showmore__background">
                 <div className="showmore__background-icon">
-                  <Search />
+                  <ArrowUpRight />
                 </div>
               </div>
             </div>

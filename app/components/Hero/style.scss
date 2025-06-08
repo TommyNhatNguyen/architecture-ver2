@@ -24,11 +24,12 @@
         gap: var(--gutter);
         flex-direction: column;
         &__item {
-          writing-mode: sideways-lr;
-          text-orientation: upright;
+          position: relative;
+          transform: rotate(-90deg);
+          margin-top: 36px;
           transition-duration: 0.3s;
           &:hover {
-            border-right: 1px solid var(--white-color);
+            border-bottom: 1px solid var(--white-color);
           }
         }
       }
